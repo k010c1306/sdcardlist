@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sdcardlist"
+    package="com.example.fileviewer"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -23,7 +23,7 @@
             android:value="AIzaSyCRv8EGIuGuAtcePUaT2RBMW88xWlKUkw0" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="jp.example.fileviewer_qc.MainActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="com.google.android.apps.drive.DRIVE_OPEN" />
@@ -32,9 +32,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GDtest" >
+        <activity android:name="jp.example.fileviewer_qc.GDtest" >
         </activity>
-        <activity android:name=".SDtest" >
+        <activity android:name="jp.example.fileviewer_qc.SDtest" >
         </activity>
     </application>
 

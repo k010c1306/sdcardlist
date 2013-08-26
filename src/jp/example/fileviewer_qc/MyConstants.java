@@ -1,4 +1,4 @@
-package com.example.sdcardlist;
+package jp.example.fileviewer_qc;
 
 final class MyConstants {
 	// クライアント ID: 000000004C0FB400

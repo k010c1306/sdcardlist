@@ -1,4 +1,4 @@
-package com.example.sdcardlist;
+package jp.example.fileviewer_qc;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.example.sdcardlist;
+package jp.example.fileviewer_qc;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -6,6 +6,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import com.example.fileviewer.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -82,6 +84,14 @@ public class MainActivity extends Activity implements OnItemClickListener, OnCli
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+		try {
+            // ここで2秒間スリープし、スプラッシュを表示させたままにする。
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+        }
+
+        // 通常時のテーマをセットする。
+        //setTheme(R.style.AppTheme);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		builder = new AlertDialog.Builder(MainActivity.this);

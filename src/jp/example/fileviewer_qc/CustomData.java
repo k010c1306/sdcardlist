@@ -1,4 +1,4 @@
-package com.example.sdcardlist;
+package jp.example.fileviewer_qc;
 
 public class CustomData {
 	public String fileName;
